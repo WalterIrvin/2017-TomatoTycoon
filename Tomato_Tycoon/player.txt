@@ -1,0 +1,7 @@
+[Upgrades]
+crafting:1:100
+gardening:1:100
+mining:1:100
+worker:1:300
+[Gold]
+5

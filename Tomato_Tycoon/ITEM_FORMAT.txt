@@ -1,0 +1,11 @@
+[Inventory]
+item name:filename:desc:amount:type:sellprice						#note (type = c, p, m, h)
+
+[Craftables, type = "c"]
+name (name of the thing that can be crafted) : T/F (is recipe known?):timer (to craft):recipe=Item-#,Item-#,etc...
+
+[Plantables, type = "p"]
+name:level (garden level to plant this seed, numeric value):timer (from plant to harvest):cost:output:baseyield
+
+[Mineables, type = "m"]
+name:level:minetimer:baseyield:output

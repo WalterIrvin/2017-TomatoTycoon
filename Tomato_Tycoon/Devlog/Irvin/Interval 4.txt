@@ -1,0 +1,4 @@
+Made changed to the Menu file, fixing the slider to make it work in the shop, garden, and mine screens.
+Made text appear on the inv screen that shows how many is left to craft, and what the current craft queue is.
+I also made sure the news event actually showed up in code and had around a 15 second delay between messages. Worked with Emm on getting
+the highlights to show up on most items. Also made the upgrade screen and buttons, and along with making them click correctly, also begun implementing its features into the game since items and plants cannot be crafted nor planted unless a certain skill level is met. Currently working on getting a system in place to use the workers button.

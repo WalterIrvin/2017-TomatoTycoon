@@ -1,0 +1,87 @@
+[Inventory]
+Tomato:Assets//tomato.png:A fresh tomato:0:h:1
+Wood:Assets//log.png:A log that is used in crafting:0:h:1
+String:Assets//string.png:A string that is used in bows:0:h:1
+Tomato seed:Assets//seed.png:Tomato seeds to grow tomatoes:0:p:1
+Acorn:Assets//acorn.png:From the acorn grows the mighty oak:0:p:1
+Cotton seed:Assets//seed.png:Cotton seeds, useful:0:p:1
+Iron:Assets//ironingot.png:Iron is a tough and sturdy metal:100:h:3
+Iron ore:Assets//ore.png:Raw iron used in smelting:0:m:1
+Steel:Assets//ironingot.png:Even stronger then iron:0:c:5
+Stone:Assets//stone.png:A big tough rock:0:m:1
+Coal:Assets//coal.png:Burns really hot:100:m:1
+Titanium ore:Assets//ore.png:Titanium ore is a tough thing to smelt:0:m:1
+Titanium:Assets//ironingot.png:Bulletproof and tough enough to cut steel:0:h:7
+Adamantium ore:Assets//ore.png:A rare ore that comes from space:0:m:1
+Adamantium:Assets//ironingot.png:Toughest metal known to humankind:0:h:10
+Unobtainium ore:Assets//ore.png:A rare ore only found in the depths of planets:0:m:1
+Unobtainium:Assets//ironingot.png:A metal that has antigravity properties, allows larger swords:0:h:15
+Amazium ore:Assets//ore.png:This ore glows red with raw energy:0:m:1
+Amazium:Assets//ironingot.png:Amazium metal burns red hot always:0:h:17
+Bizzarium ore:Assets//ore.png:Bizzarium ore will change its appearance, no two stones look alike:0:m:1
+Bizzarium:Assets//ironingot.png:The metal seems to have a mind of its own:0:h:20
+Club:Assets//ironsword.png:A glorified stick you pulled off a tree:0:c:5
+Stone Axe:Assets//stoneaxe.png:A large heavy stone axe:0:c:5
+Iron Sword:Assets//ironsword.png:A heavy and brittle iron sword:0:c:15
+Steel Sword:Assets//ironsword.png:A heavy and sharp steel sword:0:c:25
+Titanium Sword:Assets//ironsword.png:A massive blade that can cut steel bars in half:0:c:35
+Adamantium Sword:Assets//ironsword.png:A rare blade that is very sharp:0:c:45
+Unobtainium Sword:Assets//ironsword.png:A lightweight sword which allows its user to fly:0:c:55
+Bizzarium Sword:Assets//ironsword.png:A blade which makes its user teleport short distances:0:c:75
+Amazium Sword:Assets//ironsword.png:The power of amazium allows its user to burn large swaths of the battlefield:0:c:65
+AB Pike:Assets//ironsword.png:A flamethrower / teleporter, its a bit OP:0:c:85
+Short Bow:Assets//shortbow.png:A primitive bow:0:c:5
+Long Bow:Assets//longbow.png:A standard bow:0:c:10
+Super Long Bow:Assets//longbow.png:Almost as tall as its user:0:c:15
+Crossbow:Assets//longbow.png:A powerful bow that requires little skill to use:0:c:20
+Ballista:Assets//tomato.png:A really big crossbow:0:c:40
+Trebuchet:Assets//tomato.png:Big clunky siege engine, may or may not be glued together with tape:0:c:120
+Catapult:Assets//tomato.png:An even bigger siege weapon:0:c:225
+Cannon:Assets//tomato.png:The master of siege warfare, can destroy entire towers in a single shot:0:c:400
+Mundane Potion:Assets//potion.png:What does it do?:0:c:30
+Standard Potion:Assets//potion.png:The potion glows with a strange red glow:0:c:125
+Amazium Potion:Assets//potion.png:The potion bubbles with strange energy:0:c:185
+Bizzarium Potion:Assets//potion.png:Is this thing even safe?:0:c:200
+[Craftables]
+Iron:0:0.1:recipe=Iron ore-3
+Steel:1:0.5:recipe=Iron-1,Coal-1
+Titanium:2:1:recipe=Titanium ore-3
+Unobtainium:3:2:recipe=Unobtainium ore-3
+Adamantium:4:4:recipe=Adamantium ore-3
+Amazium:5:5:recipe=Amazium ore-3
+Bizzarium:6:5:recipe=Bizzarium ore-3
+Club:0:0.5:recipe=Wood-1
+Stone Axe:1:0.7:recipe=Wood-1,Stone-2
+Iron Sword:2:5:recipe=Wood-1,Iron-2
+Steel Sword:3:10:recipe=Wood-1,Steel-2
+Titanium Sword:4:15:recipe=Iron-1,Titanium-2
+Adamantium Sword:5:25:recipe=Adamantium-3,Titanium-1
+Unobtainium Sword:6:30:recipe=Steel-1,Unobtainium-2
+Bizzarium Sword:7:40:recipe=Titanium-1,Bizzarium-2
+Amazium Sword:8:45:recipe=Unobtainium-1,Amazium-2
+AB Pike:9:60:recipe=Bizzarium-2,Amazium-2
+Short Bow:1:0.5:recipe=Wood-1,String-1
+Long Bow:2:0.7:recipe=Wood-2,String-2
+Super Long Bow:3:5:recipe=Wood-4,String-4
+Crossbow:4:10:recipe=Wood-10,String-1
+Ballista:8:15:recipe=Wood-20,String-10
+Trebuchet:9:30:recipe=Wood-50,String-50
+Catapult:10:40:recipe=Wood-50,String-150
+Cannon:11:45:recipe=Wood-20,Iron-350
+Mundane Potion:11:40.5:recipe=Tomato-25
+Standard Potion:12:50.7:recipe=Tomato-100
+Amazium Potion:13:100:recipe=Tomato-150,Amazium-1
+Bizzarium Potion:14:200:recipe=Tomato-150,Bizzarium-1
+[Mineables]
+Coal:1:1:1:Coal
+Stone:0:0.5:1:Stone
+Iron ore:1:1:1:Iron
+Titanium ore:2:15:1:Titanium
+Unobtainium ore:3:20:1:Unobtainium
+Adamantium ore:4:30:1:Adamantium
+Amazium ore:5:40:1:Amazium
+Bizzarium ore:6:60:1:Bizzarium
+[Plantables]
+Acorn:0:15:25:Wood:3
+Cotton seed:1:2:25:String:5
+Tomato seed:0:0.5:1:Tomato:10

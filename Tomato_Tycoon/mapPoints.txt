@@ -1,0 +1,33 @@
+[Store]
+
+
+[Garden]
+Lake:943,332:8,10
+Well:1016,528:8,11
+Clothes Line:746,71:9,11,16
+Scarecrow:587,225:12,16
+Dead Tree:356,302:12,15
+Tomb Stone:69,41:14,15
+Palm Tree:187,489:13,14
+Wheat Well:917,566:2,1,11,12,13
+Clothes Line Hay:838,15:3,10
+Forest:914,69:1,8,9
+Pink Bush:781,577:2,3,8,12,13
+Field3 Bot:499,593:2,4,5,8,11,13,16
+Far Field:187,569:2,7,8,11,12,14
+Far Bush:181,117:6,7,13,15
+Field2 Top:326,12:3,5,6,14,16
+Dead Log:541,40:3,4,12,15
+
+[Mine]
+Gold 1:907,522:2,8
+Iron 1:863,276:1,11
+Silver:466,261:4,5,7
+Gold 2:307,349:3,7,9,10,11
+Iron 2:158,226:3,6,10
+Gold 3:98,521:5,8,9
+Tunnel:481,112:3,4,10
+Under Gold:846,594:1,6,9,11
+End Track:406,536:4,6,8,11
+Midtrack Hole:316,239:4,5,7,11
+Track Intersection:656,351:2,4,8,9,10
